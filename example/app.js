@@ -1,5 +1,5 @@
 var http       = require('http'),
-    port       = process.env.PORT || 3000,
+    port       = process.env.PORT || 4000, // changed from 3000 as it conflicts with meanjs
     request    = require('request'),
     qs         = require('querystring'),
     util       = require('util'),
